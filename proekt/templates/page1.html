@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang=«en»>
+<head>
+<meta charset=«UTF-8»>
+<title>Проект</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for("static", filename="css/main.css")}}">
+<script>
+function myFunction() {
+document.getElementById(«para»).innerHTML = «WHOLE RESUME»;
+}
+</script>
+
+</head>
+<body>
+<img src = "/static/images/2.png" height = "200"/>
+<h1 class=»styled»>
+Вторая страница
+</h1>
+<br>
+<br>
+<p id=«para»> </p>
+<<button id="button" type="button" onclick="myFunction()"> Нажми </button>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang=«en»>
+<head>
+<meta charset=«UTF-8»>
+<title>Проект</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for("static", filename="css/main.css")}}">
+<script>
+function myFunction() {
+document.getElementById(«para»).innerHTML = «WHOLE RESUME»;
+}
+</script>
+
+</head>
+<body>
+<img src = "/static/images/1.jpg" height = "200"/>
+<h1 class=»styled»>
+Мой проект
+This page will contain my resume
+</h1>
+
+<form action="/a1/">
+            <input type="submit" value="Click me1" />
+        </form>
+        
+  <button> <a href="/a2/">Click me 2</a></button>
+<br>
+<br>
+<p id=«para»> </p>
+<<button id="button" type="button" onclick="myFunction()"> Открой </button>
+</body>
+</html>
